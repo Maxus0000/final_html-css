@@ -1,0 +1,10 @@
+:root{
+--main-color: #65C466;
+--footer-color: #243246;
+--text-color: #414141;
+--header-color:#ffffff;
+
+/* font-family: 'Roboto', sans-serif; */
+font-size: 14px;
+font-weight: 400;
+}
