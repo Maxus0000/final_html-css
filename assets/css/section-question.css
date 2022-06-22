@@ -1,21 +1,61 @@
 .block-question{
-  display: flex;
-  height: 100vh;
+  padding: 1rem 2rem;
 }
 .justice-img{
-  height: 100%;
-  width: 100%;
-  padding-right: 50px;
+  height: 250px;
+  width: 250px;
 background-image:url(./../images/justice.png);
 background-size: cover;
 background-repeat: no-repeat;
 }
-.img{
-  width: 648px;
-  height: 660px;
+.justice-main{
+  display: none;
 }
 .question{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.input{
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  border: 1px solid #C2C2C2;
+  border-radius: 4px;
+  
+}
+
+.input_upper{
+height: 2.3rem;
+}
+.input_bottom{
+  height: 6.3rem;
+}
+.check{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+
+}
+.check_agreement{
+  background-color: var(--main-color);
+}
+.button_send{
+  width: 22rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: var(--header-color);
+  background-color:var(--main-color);
+  border-radius: 5px;
+}
+
+
+@media screen and (min-width: 768px){
+  .justice-main{
+    display: block;
+  }
+  .justice-mobile{
+    display: none;
+  }
+  
 }

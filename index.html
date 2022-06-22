@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/grid.css">
-  <link rel="stylesheet" href="./assets/css/header-container.css">
-  <link rel="stylesheet" href="./assets/css/section-question.css">
-  <title>Класика права</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-  <!-- header -->
-  <header class="navigation">
-    <nav class="container">
-      <div class="nav-container">
-        <a href="#" class="logo ">класика права</a>
-        <ul class="nav-list">
-          <li class="nav-link phone-number">
-            <img src="./assets/icons/Vector_phone.png" alt="">
-            <p class="number">+380(00)000 00 00</p>
-            <p>бесплатная консультация</p>
-          </li>
-          <li class="nav-link">
-            <button class="btn-call">заказать звонок</button>
-          </li>
-          <li class="nav-link">
-            <img src="./assets/icons/Vector.png" alt="">
-            <p>войти/регистрация</p>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/header-container.css" />
+    <link rel="stylesheet" href="./assets/css/section-question.css" />
+    <title>Класика права</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="navigation">
+      <nav class="container">
+        <div class="nav-container">
+          <a href="#" class="logo">класика права</a>
+          <button class="mobile-list"></button>
+          <ul class="nav-list">
+            <li class="nav-link phone-number">
+              <p class="number">
+                <span class="phone"></span>
+                <!-- <img src="./assets/icons/Vector_phone.png" alt="" /> -->
+                +380(00)000 00 00
+              </p>
+              <p>бесплатная консультация</p>
+            </li>
+            <li class="nav-link">
+              <button class="btn-call">заказать звонок</button>
+            </li>
+            <li class="nav-link">
+              <img src="./assets/icons/man.png" alt="" />
+              <p><a href="#">войти</a>/<a href="#">регистрация</a></p>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- задайте вопрос -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="justice-img justice-main col-5"></div>
+          <div class="block-question col-12 col-sm-7">
+            <div class="question">
+              <article class="text">
+                <h2>Задайте вопрос юристу онлайн</h2>
+                <p>
+                  Компания специализируется на оказании широкого спектра услуг
+                  как для корпоративных клиентов так и для частных лиц.
+                  Профессионализм и ответственность ключевые преимущества нашей
+                  компании.
+                </p>
+                <div class="justice-img justice-mobile"></div>
+              </article>
+              <form action="">
+                <input class="input input_upper" type="text" 
+                placeholder="Введите Ваш вопрос..."/>
+                <input class="input input_bottom" type="text" 
+                placeholder="Введите Ваш вопрос..."/>
+              </form>
+              <div class="check">
+                <input class="check_agreement" type="checkbox"  name="agreement"
+                       checked>
+                <label for="agreement">Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</label>
+                <button class="button_send">Отправить вопрос</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-  </header>
-   <!-- задайте вопрос -->
-   <section>
-    <div class="container">
-      <div class="block-question col-12">
-      <div class="justice-img">
-        <!-- <img class="img" src="./assets/images/justice.png" alt=""> -->
-      </div>
-      <div class="question">
-        <article class="text">
-          <h2>Задайте вопрос юристу онлайн</h2>
-          <p>Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
-        </article>
-        <form action="">
-          <input type="text">
-        </form>
-      </div>
-    </div>
-    </div>
-  </section>
-   
-
-    
-  
-  
-</body>
+    </section>
+  </body>
 </html>
